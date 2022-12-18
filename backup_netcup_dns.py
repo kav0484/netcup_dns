@@ -3,7 +3,7 @@ import datetime
 import time
 import os
 from dotenv import load_dotenv
-from nc_dnsapi import Client, DNSRecord
+from nc_dnsapi import Client
 
 #vars
 list_domains=[]
