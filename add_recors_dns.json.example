@@ -1,0 +1,19 @@
+{
+    "example.com": [
+        {
+            "hostname": "*",
+            "type": "A",
+            "destination": "1.2.3.4"
+        },
+        {
+            "hostname": "mail",
+            "type": "A",
+            "destination": "1.2.3.4"
+        },
+        {
+            "hostname": "@",
+            "type": "MX",
+            "destination": "mail.example.com"
+        }
+    ]
+}
